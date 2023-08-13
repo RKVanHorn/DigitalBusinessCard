@@ -6,7 +6,11 @@ export default function Info() {
       <img src="../images/small.jpg" className="image" />
       <h1 className="info-name">Rachel VanHorn</h1>
       <h4 className="info-title">Full Stack Developer</h4>
-      <p className="info-website">rkvanhorn.website</p>
+      <p className="info-website">
+        <a href="https://rvanhorn.dev" target="_blank">
+          RVanHorn.dev
+        </a>
+      </p>
       <div className="button-row">
         <button className="email-btn">
           <img src="../images/Mail.png" />
